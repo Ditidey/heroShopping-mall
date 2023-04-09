@@ -10,8 +10,9 @@ const Header = () => {
                    <h3 className='font-bold text-2xl text-blue-900'>Hero Shopping Mall</h3>
                 </div>
                 <ul className='lg:flex space-x-4 '>
-                    <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/about'>About</NavLink></li>
+                    <li><NavLink className='font-bold' to='/'>Home</NavLink></li>
+                    <li><NavLink className='font-bold' to='/shop'>Shop</NavLink></li>
+                    <li><NavLink className='font-bold' to='/about'>About Us</NavLink></li>
                 </ul>
             </div>
         </div>
