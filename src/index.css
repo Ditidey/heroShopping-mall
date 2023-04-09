@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply font-medium transition duration-200 px-8 py-3 bg-blue-400 hover:bg-blue-800 rounded-full text-white shadow-md text-lg border
+    @apply font-medium transition duration-200 px-8 py-3 bg-cyan-400 hover:bg-blue-800 rounded-full text-white shadow-md text-lg border
 }
 .btn-outlined{
     @apply font-medium transition duration-200 px-8 py-3 text-blue-600 shadow-md rounded-full bg-gray-100 hover:bg-gray-300 text-lg border

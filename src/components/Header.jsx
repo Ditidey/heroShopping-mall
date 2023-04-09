@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { ShoppingCartIcon } from '@heroicons/react/24/solid'
 
 const Header = () => {
     return (
-        <div className='md:max-w-full lg:max-w-screen-xl-xl sm:max-w-xl lg:px-24 md:px-8 py-8 px-10'>
+        <div className='md:max-w-full lg:max-w-screen-xl-xl sm:max-w-xl lg:px-24 md:px-8 py-8 px-10 bg-cyan-50'>
             <div className='relative flex items-center justify-between'>
                 <div className='flex'>
                    <img className='w-12 h-6' src="/public/logo.svg" alt="" />
@@ -12,6 +13,7 @@ const Header = () => {
                 <ul className='lg:flex space-x-4 '>
                     <li><NavLink className='font-bold' to='/'>Home</NavLink></li>
                     <li><NavLink className='font-bold' to='/shop'>Shop</NavLink></li>
+                    <li><NavLink className='font-bold' to='/cart'><ShoppingCartIcon className="h-6 w-6 text-blue-500" /></NavLink></li>
                     <li><NavLink className='font-bold' to='/about'>About Us</NavLink></li>
                 </ul>
             </div>
